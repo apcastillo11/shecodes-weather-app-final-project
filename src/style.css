@@ -24,10 +24,36 @@ li {
   padding: 0;
 }
 
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
 .weather-app {
   border: 1px solid #dadde1;
   border-radius: 4px;
-  margin: 30px auto;
-  max-width: 600px;
   padding: 20px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  height: 64px;
+  width: 64px;
+  margin-right: 6px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  font-size: 16px;
+  position: relative;
+  top: -34px;
 }
